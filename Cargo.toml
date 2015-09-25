@@ -1,0 +1,13 @@
+[package]
+name = "xiapi_sys"
+version = "0.1.1"
+authors = ["Elliott Rezny <erezny@gmail.com>"]
+
+links="m3api"
+build="build.rs"
+
+[dependencies]
+libc = "*"
+
+[build-dependencies.bindgen]
+git = "https://github.com/crabtw/rust-bindgen.git"
