@@ -1,19 +1,19 @@
 xiapi_sys-rust
 ============
 
-A [https://github.com/crabtw/rust-bindgen][bindgen] binding for Ximea xiApi.
+A [bindgen](https://github.com/crabtw/rust-bindgen) binding for Ximea xiApi.
 
 Requirements
 ------------
 
-* OSX: [issue 1][].
+* OSX: [issue 1](https://github.com/erezny/xiapi_sys-rust/issues/1).
 
 * xiAPI: http://www.ximea.com/support/documents/4
 
 * clang 3.4 and up
 
 Note: The libclang.so has to be statically linked with LLVM or you will
-encounter [issue 89][]. You can also use LD_PRELOAD=/path/to/libclang.so to
+encounter [issue 89](https://github.com/crabtw/rust-bindgen/issues/89). You can also use LD_PRELOAD=/path/to/libclang.so to
 workaround the problem.
 
 Building
