@@ -1,7 +1,7 @@
 xiapi_sys-rust
 ============
 
-A bindgen binding for Ximea xiApi.
+A [bindgen][https://github.com/crabtw/rust-bindgen] binding for Ximea xiApi.
 
 Requirements
 ------------
