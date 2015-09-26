@@ -1,10 +1,14 @@
 xiapi_sys-rust
 ============
 
-A [bindgen][https://github.com/crabtw/rust-bindgen] binding for Ximea xiApi.
+A [https://github.com/crabtw/rust-bindgen][bindgen] binding for Ximea xiApi.
 
 Requirements
 ------------
+
+* OSX: [issue 1][].
+
+* xiAPI: http://www.ximea.com/support/documents/4
 
 * clang 3.4 and up
 
