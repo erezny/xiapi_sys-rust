@@ -10,4 +10,5 @@ build="build.rs"
 libc = "*"
 
 [build-dependencies.bindgen]
-git = "https://github.com/erezny/rust-bindgen.git#uint_constants"
+git = "https://github.com/erezny/rust-bindgen.git"
+branch = "uint_constants"
